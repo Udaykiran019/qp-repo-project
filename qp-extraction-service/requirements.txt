@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pymupdf==1.25.2
+opencv-python-headless==4.10.0.84
+numpy==1.24.4
+python-dotenv==1.0.1
+pytesseract==0.3.13
+paddlepaddle==3.0.0
+paddleocr==3.0.1

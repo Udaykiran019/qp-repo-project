@@ -1,0 +1,35 @@
+# --- Python / Extraction Service ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.venv/
+venv/
+ENV/
+.env
+
+# --- Node / Backend ---
+qp-repo-backend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Generated Pipeline Artifacts & Storage ---
+# Ignores generated images, logs, and layout JSONs while keeping the directory structure
+qp-extraction-service/debug_output/*
+!qp-extraction-service/debug_output/.gitkeep
+
+qp-extractor/storage/crops/*
+!qp-extractor/storage/crops/.gitkeep
+
+qp-extractor/storage/layout/*
+!qp-extractor/storage/layout/.gitkeep
+
+qp-extractor/storage/pages/*
+!qp-extractor/storage/pages/.gitkeep
+
+qp-extractor/storage/uploads/*
+!qp-extractor/storage/uploads/.gitkeep
+
+# --- OS / VS Code ---
+.DS_Store
+.vscode/
