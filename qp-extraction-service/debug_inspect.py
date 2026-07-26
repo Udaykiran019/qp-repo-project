@@ -6,7 +6,7 @@ from paddleocr import PPStructureV3
 engine = PPStructureV3(device="cpu")
 
 # Reuse the same page you tested before
-image_path = r"C:\qp-repo-project\qp-extractor\storage\pages\6ca27a19-6cb0-425d-a06a-51fc6a162873\page_1.png"
+image_path = r"C:\qp-repo-project\qp-extractor\storage\pages\a85496fc-b542-462a-b411-bcddfa384341\page_1.png"
 
 result = engine.predict(image_path)
 r = result[0]
