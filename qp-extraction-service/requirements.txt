@@ -7,3 +7,4 @@ python-dotenv==1.0.1
 pytesseract==0.3.13
 paddlepaddle==3.0.0
 paddleocr==3.0.1
+beautifulsoup4==4.12.3
